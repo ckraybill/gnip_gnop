@@ -1,0 +1,47 @@
+<entry xmlns:gnip="http://www.gnip.com/schemas/2010" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:search.twitter.com,2005:180761363340197888</id>
+  <published>2012-03-16T21:04:02Z</published>
+  <updated>2012-03-16T21:04:02Z</updated>
+  <title>greeneyedtengu (Robyn Omega) posted a note on Twitter</title>
+  <summary type="html">@redheadphotog Huh. Good luck hon. You know... Two apartments in our building will be vacant soon... D101 and D103...</summary>
+  <category term="StatusPosted" label="Status Posted"/>
+  <category term="NotePosted" label="Note Posted"/>
+  <link rel="alternate" type="text/html" href="http://twitter.com/greeneyedtengu/statuses/180761363340197888"/>
+  <source>
+    <link rel="self" type="application/atom+xml" href="http://search.twitter.com/search.atom?q=apartments&amp;rpp=99&amp;result_type=recent&amp;since_id=180761625198993408"/>
+    <title>Twitter - Keyword - Notices - apartments</title>
+    <updated>2012-03-16T14-05-25Z</updated>
+  </source>
+  <service:provider xmlns:service="http://activitystrea.ms/service-provider">
+    <name>Twitter</name>
+    <uri>http://www.twitter.com/</uri>
+    <icon/>
+  </service:provider>
+  <activity:verb xmlns:activity="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/post</activity:verb>
+  <activity:object xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:object-type>http://activitystrea.ms
+/schema/1.0/note</activity:object-type>
+    <id>object:tag:search.twitter.com,2005:180761363340197888</id>
+    <content type="html">@&lt;a class=" " href="http://twitter.com/redheadphotog"&gt;redheadphotog&lt;/a&gt; Huh. Good luck hon. You know... Two &lt;em&gt;apartments&lt;/em&gt; in our building will be vacant soon... D101 and D103...</content>
+    <link rel="alternate" type="text/html" href="http://twitter.com/greeneyedtengu/statuses/180761363340197888"/>
+  </activity:object>
+  <author>
+    <name>greeneyedtengu</name>
+    <uri>http://twitter.com/greeneyedtengu</uri>
+  </author>
+  <activity:author xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    <link rel="alternate" type="text/html" length="0" href="http://twitter.com/greeneyedtengu"/>
+    <link rel="avatar" type="image/png" href="http://a0.twimg.com/profile_images/1886588117/profile_normal.jpg"/>
+    <id>http://twitter.com/greeneyedtengu</id>
+  </activity:author>
+  <activity:actor xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    <link rel="alternate" type="text/html" length="0" href="http://twitter.com/greeneyedtengu"/>
+    <link rel="avatar" type="image/png" href="http://a0.twimg.com/profile_images/1886588117/profile_normal.jpg"/>
+    <id>http://twitter.com/greeneyedtengu</id>
+  </activity:actor>
+  <gnip:matching_rules>
+    <gnip:matching_rule rel="source">apartments</gnip:matching_rule>
+  </gnip:matching_rules>
+</entry>
