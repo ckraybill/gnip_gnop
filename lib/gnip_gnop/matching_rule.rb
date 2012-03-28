@@ -2,10 +2,11 @@ module GnipGnop
   class MatchingRule
     include HappyMapper
 
-    tag 'matching_rules'
+    tag 'matching_rule'
 
     namespace 'http://www.gnip.com/schemas/2010'
 
-    element :rule, String, :tag => 'matching_rule'
+    attribute :rel, String
+    content :rule
   end
 end

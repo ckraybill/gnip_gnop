@@ -20,6 +20,6 @@ module GnipGnop
     has_one :author, Author
     has_one :activity_author, ActivityAuthor
     has_one :activity_actor, ActivityActor
-    has_one :matching_rule, MatchingRule
+    has_many :matching_rules, MatchingRule
   end
 end

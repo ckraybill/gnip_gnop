@@ -87,6 +87,11 @@ describe GnipGnop::Entry do
   end
 
   it "should parse the matching rules" do
-    @entry.matching_rule.rule.must_equal "apartments"
+    @entry.matching_rules.first.rule.must_equal "apartments"
+  end
+
+  it "should parse multiple matching rules" do
+    @entry = GnipGnop::Entry.parse(File.read(File.expand_path('../fixtures/entry_with_rules.xml', __FILE__)))
+    @entry.matching_rules.size.must_equal 2
   end
 end

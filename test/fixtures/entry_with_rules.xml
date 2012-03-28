@@ -1,0 +1,47 @@
+<entry xmlns:gnip="http://www.gnip.com/schemas/2010" xmlns="http://www.w3.org/2005/Atom">
+   <id>tag:search.twitter.com,2005:185095872315539457</id>
+   <published>2012-03-28T20:07:49Z</published>
+   <updated>2012-03-28T20:07:49Z</updated>
+   <title>AskLaLa (AskLaLa) posted a note on Twitter</title>
+   <summary type="html">new york Curbed SF has rounded up four of San Francisco's tiniest abodes, which range in size from 34... http://t.co/UkXbbti2 apartments</summary>
+   <category term="StatusPosted" label="Status Posted"/>
+   <category term="NotePosted" label="Note Posted"/>
+   <link rel="alternate" type="text/html" href="http://twitter.com/AskLaLa/statuses/185095872315539457"/>
+   <source>
+      <link rel="self" type="application/atom+xml" href="http://search.twitter.com/search.atom?q=apartments&amp;rpp=99&amp;result_type=recent&amp;since_id=185095872315539457"/>
+      <title>Twitter - Keyword - Notices - apartments</title>
+      <updated>2012-03-28T13-08-37Z</updated>
+   </source>
+   <service:provider xmlns:service="http://activitystrea.ms/service-provider">
+      <name>Twitter</name>
+      <uri>http://www.twitter.com/</uri>
+      <icon/>
+   </service:provider>
+   <activity:verb xmlns:activity="http://activitystrea.ms/spec/1.0/">http://activitystrea.ms/schema/1.0/post</activity:verb>
+   <activity:object xmlns:activity="http://activitystrea.ms/spec/1.0/">
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <id>object:tag:search.twitter.com,2005:185095872315539457</id>
+      <content type="html">new york Curbed SF has rounded up four of San Francisco's tiniest abodes, which range in size from 34... <a href="http://t.co/UkXbbti2">http://t.co/UkXbbti2</a> <em>apartments</em></content>
+      <link rel="alternate" type="text/html" href="http://twitter.com/AskLaLa/statuses/185095872315539457"/>
+   </activity:object>
+   <author>
+      <name>AskLaLa</name>
+      <uri>http://twitter.com/AskLaLa</uri>
+   </author>
+   <activity:author xmlns:activity="http://activitystrea.ms/spec/1.0/">
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <link rel="alternate" type="text/html" length="0" href="http://twitter.com/AskLaLa"/>
+      <link rel="avatar" type="image/png" href="http://a0.twimg.com/profile_images/1337100426/bellapippa_normal.jpg"/>
+      <id>http://twitter.com/AskLaLa</id>
+   </activity:author>
+   <activity:actor xmlns:activity="http://activitystrea.ms/spec/1.0/">
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <link rel="alternate" type="text/html" length="0" href="http://twitter.com/AskLaLa"/>
+      <link rel="avatar" type="image/png" href="http://a0.twimg.com/profile_images/1337100426/bellapippa_normal.jpg"/>
+      <id>http://twitter.com/AskLaLa</id>
+   </activity:actor>
+   <gnip:matching_rules>
+      <gnip:matching_rule rel="source">apartments</gnip:matching_rule>
+      <gnip:matching_rule rel="inferred">apartments san francisco</gnip:matching_rule>
+   </gnip:matching_rules>
+</entry>
